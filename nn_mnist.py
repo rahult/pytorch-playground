@@ -37,7 +37,7 @@ train_loader = torch.utils.data.DataLoader(
 )
 
 test_loader = torch.utils.data.DataLoader(
-    dataset=test_dataset, batch_size=batch_size, shuffle=True
+    dataset=test_dataset, batch_size=batch_size, shuffle=False
 )
 
 examples = iter(train_loader)
