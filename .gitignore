@@ -1,3 +1,4 @@
 data/*
 *.pth
 runs
+lightning_logs

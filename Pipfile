@@ -14,6 +14,7 @@ ipykernel = "*"
 sklearn = "*"
 matplotlib = "*"
 tensorboard = "*"
+pytorch-lightning = "*"
 
 [requires]
 python_version = "3.8"
